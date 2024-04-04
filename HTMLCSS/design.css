@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;  
+}
+#hello{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}   
+p{
+    width: 50px;
+    height:40px;
+    background-color: blue;
+    margin: 30px 70px 34px 55px
+}
+#main{
+    width: 100pc;
+    height: 100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1671397272333-5807b32630f3?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8);
+    background-size: cover;
+    background-position: center;
+
+}
+#car1{
+    /* position: absolute; */
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+#car2{
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    background-color: green;
+}
+#car3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+#box1{
+    display : flex;
+    width: 110px;
+    height: 30px;
+    background-color: thistle;
+
+}
+#box2{
+    display: flex;
+    width: 20px;
+    height: 300px;
+    background-color: cornsilk;
+}
+#box3{
+    display: flex;
+    width: 440px;
+    height: 10px;
+    background-color: olive;
+
+}
+/* fullwidth is the whole width that is available and half widht is the half width of the available  
+margin is the space between the element and the other element and padding is the space between the element and the content inside the element
+*/
